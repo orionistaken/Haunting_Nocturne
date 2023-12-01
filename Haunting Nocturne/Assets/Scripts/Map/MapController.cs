@@ -22,6 +22,7 @@ public class MapController : MonoBehaviour
 
 
     // Start is called before the first frame update
+    [System.Obsolete]
     void Start()
     {
         pm = FindObjectOfType<PlayerMovement>();
