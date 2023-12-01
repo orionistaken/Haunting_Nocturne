@@ -164,10 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d14466a4cc90e7419b58ec3409a709b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2814810663445100874, guid: 3ba9e91744520a944a17cde84c14ab50, type: 3}
-  damage: 0
-  speed: 0
-  cooldownDuration: 3
+  weaponData: {fileID: 11400000, guid: 723d1dae4bcae0b42add5b63a7aea4a1, type: 2}
 --- !u!1 &451275657
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &451275658
 Transform:
   m_ObjectHideFlags: 0
@@ -212,10 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb051a30132bd334a93748a02048c23c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3923916727629605086, guid: 105e054f3f369ca49affcf4a633fc154, type: 3}
-  damage: 0
-  speed: 10
-  cooldownDuration: 2
+  weaponData: {fileID: 11400000, guid: 55e8e83b5bcd7314b9ad5add62e1db90, type: 2}
 --- !u!1 &497868281
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +588,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1403834997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+  m_PrefabInstance: {fileID: 8514061381762071790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1403835003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403834997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af29015ab559ec4dbb5314ab66ba7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 6707ff86a36514948bed03a9f388685d, type: 2}
 --- !u!1 &1787792781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2332206705043760981, guid: 2615e1c5c3d8f064d9127b82b8d346c5, type: 3}
@@ -2287,6 +2299,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2334790503841119338, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2895617034098224766, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.73
@@ -2331,10 +2347,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat
       objectReference: {fileID: 0}
+    - target: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1403835003}
   m_SourcePrefab: {fileID: 100100000, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
