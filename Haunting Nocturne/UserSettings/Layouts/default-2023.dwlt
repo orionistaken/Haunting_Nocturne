@@ -316,9 +316,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cc630000
-      m_LastClickedID: 25548
-      m_ExpandedIDs: 10fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0afbffff10fbffffac630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -805,9 +805,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.979259, y: 3.0164168, z: 0.0054630386}
+    m_Target: {x: -0.5179876, y: -0.68249637, z: 0.060775783}
     speed: 2
-    m_Value: {x: 4.691172, y: 3.2429466, z: 0.009534023}
+    m_Value: {x: -0.5179876, y: -0.68249637, z: 0.060775783}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -857,9 +857,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.453698
+    m_Target: 6.0454974
     speed: 2
-    m_Value: 9.046601
+    m_Value: 6.0454974
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1015,14 +1015,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\bkork\Haunting Nocturne
+  m_LastProjectPath: C:\Github\HauntingNocturne\Haunting Nocturne
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 42650000
     m_LastClickedID: 25922
-    m_ExpandedIDs: 000000001865000000ca9a3b
+    m_ExpandedIDs: 000000007e67000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000ce8200002c66000000000000f46b0000
+    m_ExpandedInstanceIDs: c6230000ce8200002c66000000000000f46b000010700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
