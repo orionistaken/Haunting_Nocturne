@@ -12,7 +12,7 @@ public class EnemyScriptableObject : ScriptableObject
 
     [SerializeField]
     float maxHealth;
-    public float MaxHealt { get => maxHealth; private set => maxHealth = value; }
+    public float MaxHealth { get => maxHealth; private set => maxHealth = value; }
 
     [SerializeField]
     float damage;
