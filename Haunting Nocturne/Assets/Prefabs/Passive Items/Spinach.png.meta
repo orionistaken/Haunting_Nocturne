@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spinach_0: -7202525698993969553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
