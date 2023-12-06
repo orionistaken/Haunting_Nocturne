@@ -15,7 +15,7 @@ public class WeaponController : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        pm = FindObjectOfType<PlayerMovement>();
+        pm = FindAnyObjectByType<PlayerMovement>();
         currentCooldown = weaponData.CooldownDuration; 
     }
 

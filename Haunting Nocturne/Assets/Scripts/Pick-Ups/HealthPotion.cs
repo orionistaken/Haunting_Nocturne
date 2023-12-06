@@ -8,7 +8,7 @@ public class HealthPotion : Pickup , ICollectable
 
     public void Collect()
     {
-        PlayerStats player = FindObjectOfType<PlayerStats>();
+        PlayerStats player = FindAnyObjectByType<PlayerStats>();
         player.RestoreHealth(healthToRestore);
     }
 }

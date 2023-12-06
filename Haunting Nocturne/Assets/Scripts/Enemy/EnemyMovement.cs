@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         enemy = GetComponent<EnemyStats>();
-        player = FindObjectOfType<PlayerMovement>().transform;
+        player = FindAnyObjectByType<PlayerMovement>().transform;
     }
 
     // Update is called once per frame

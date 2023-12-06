@@ -43,7 +43,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<PlayerStats>().transform;
+        player = FindAnyObjectByType<PlayerStats>().transform;
         CalculateWaveQuota();
     }
 
