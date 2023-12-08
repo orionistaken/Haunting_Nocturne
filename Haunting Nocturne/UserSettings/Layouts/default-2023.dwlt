@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -417,23 +417,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 34660000
       m_LastClickedID: 0
-      m_ExpandedIDs: 10fbffff
+      m_ExpandedIDs: 9c46f4ff724cf4ff6e60f4ff7c6af4ffbe79f4ffa87bf4ff72a1f4ff8cf5ffff10fbffffbc7800007c8300002e84000040840000d0840000e485000000860000b8930000249400006a9400007c940000c89400000c950000209600003c960000e8a200009aa30000aca300003ca4000050a500005ca500006ca50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Pause Screen
+        m_OriginalName: Pause Screen
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 38444
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -906,9 +906,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 509.51877, y: 378.4802, z: 1.5007834}
+    m_Target: {x: 542.122, y: 271.86185, z: 3.7614386}
     speed: 2
-    m_Value: {x: 509.51877, y: 378.4802, z: 1.5007834}
+    m_Value: {x: 542.122, y: 271.86185, z: 3.7614386}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -958,9 +958,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 279.68576
+    m_Target: 414.7353
     speed: 2
-    m_Value: 279.68576
+    m_Value: 414.7353
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Enemy
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1042,16 +1042,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/Enemy
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Github\HauntingNocturne\Haunting Nocturne
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26660000
-    m_LastClickedID: 26150
-    m_ExpandedIDs: 00000000d0650000d2650000d4650000d6650000d8650000da650000dc650000e6650000f065000000ca9a3b
+    m_SelectedIDs: 16660000
+    m_LastClickedID: 26134
+    m_ExpandedIDs: 00000000d2650000d4650000d6650000d8650000da650000dc650000de6500001a66000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1079,7 +1079,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d0650000d2650000d4650000d6650000d8650000da650000dc650000
+    m_ExpandedIDs: 00000000d0650000d2650000d4650000d6650000d8650000da650000dc650000de650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -2,11 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExperienceGem : Pickup , ICollectable
+public class ExperienceGem : Pickup
 {
     public int experienceGranted;
-    public void Collect()
+    public override void Collect()
     {
+        if (hasBeenCollected)
+        {
+            return;
+        }
+        else
+        {
+            base.Collect();
+        }
         PlayerStats player = FindAnyObjectByType<PlayerStats>();
         player.IncreaseExperience(experienceGranted);
     }
