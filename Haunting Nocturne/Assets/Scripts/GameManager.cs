@@ -241,14 +241,14 @@ public class GameManager : MonoBehaviour
     public void StartLevelUp()
     {
         ChangeState(GameState.LevelUp);
-        playerObject.SendMessage("Remove and Apply Upgrades");
+        playerObject.SendMessage("RemoveAndApplyUpgrades");
     }
 
     public void EndLevelUp()
     {
         choosingUpgrade= false;
         Time.timeScale = 1f;
-        levelUpScreen.SetActive(true);
+        levelUpScreen.SetActive(false);
         ChangeState(GameState.Gameplay);
     }
 }
