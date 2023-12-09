@@ -93,6 +93,11 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemies()
     {
+        if (!gameObject.scene.isLoaded)
+        {
+            return;
+        }
+
         if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota)
         {
             foreach(var enemyGroup in waves[currentWaveCount].enemyGroups)

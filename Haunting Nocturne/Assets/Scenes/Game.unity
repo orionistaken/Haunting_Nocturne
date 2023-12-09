@@ -1664,7 +1664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &479882372
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2076,9 +2076,6 @@ MonoBehaviour:
   healthBar: {fileID: 378553576}
   expBar: {fileID: 1001775413}
   levelText: {fileID: 1495140361}
-  secondWeaponTest: {fileID: 2208769892304162477, guid: d1da51aeacbaa47439f2aa1b7e054003, type: 3}
-  firstPassiveItemTest: {fileID: 4271505567529841281, guid: 40acef814f9a9fa46897955a89767004, type: 3}
-  secondPassiveItemTest: {fileID: 8378349426531216035, guid: 68392e87428fc094c854f2f73eb0120f, type: 3}
 --- !u!114 &497868290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2152,6 +2149,8 @@ MonoBehaviour:
     upgradeDescriptionDisplay: {fileID: 1783853359}
     upgradeIcon: {fileID: 1723624807}
     upgradeButton: {fileID: 2018500918}
+  weaponEvolutions:
+  - {fileID: 11400000, guid: f160e86a68b6e6844b1723df441e24df, type: 2}
 --- !u!1 &501779662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,7 +2659,7 @@ MonoBehaviour:
   - {fileID: 1615296465}
   - {fileID: 290139617}
   - {fileID: 736634185}
-  timeLimit: 60
+  timeLimit: 120
   stopwatchDisplay: {fileID: 1794236597}
   isGameOver: 0
   choosingUpgrade: 0
@@ -5904,6 +5903,63 @@ Canvas:
   m_SortingLayerID: -1602904273
   m_SortingOrder: 20
   m_TargetDisplay: 0
+--- !u!1001 &1326736483
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 577777371772266630, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_Name
+      value: Treasure Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5264983
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6043799
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
 --- !u!1 &1340067491
 GameObject:
   m_ObjectHideFlags: 0
@@ -6710,7 +6766,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -6741,7 +6797,7 @@ MonoBehaviour:
   checkPaddingRequired: 0
   m_isRichText: 1
   m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
+  m_isOrthographic: 1
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0
@@ -11934,3 +11990,4 @@ SceneRoots:
   - {fileID: 601591927}
   - {fileID: 1203964547}
   - {fileID: 652153663}
+  - {fileID: 1326736483}

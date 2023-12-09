@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4276529419464628897}
   - component: {fileID: 7338299609806685973}
   m_Layer: 0
-  m_Name: Knife Controller Level 3
+  m_Name: Evolved Knife Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb051a30132bd334a93748a02048c23c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 28529ee0ad73df34d92e17c226dd5d68, type: 2}
+  weaponData: {fileID: 11400000, guid: 59d96980c90f9e34783cb059a53a0a68, type: 2}
