@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vampire_Survivors_Terresquall_Title_0: -2434991549893015802
+      Vampire_Survivors_Terresquall_Title_1: -5327013806098331915
+      Vampire_Survivors_Terresquall_Title_2: -4189781267796695155
+      Vampire_Survivors_Terresquall_Title_3: 6008127304031619005
+      Vampire_Survivors_Terresquall_Title_4: -7365505945859260975
+      Vampire_Survivors_Terresquall_Title_5: 4842971044710596122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

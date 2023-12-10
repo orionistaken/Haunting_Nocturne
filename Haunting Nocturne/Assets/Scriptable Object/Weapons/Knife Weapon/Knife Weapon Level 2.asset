@@ -18,7 +18,7 @@ MonoBehaviour:
   cooldownDuration: 2
   pierce: 0
   level: 2
-  nextLevelPrefab: {fileID: 5705936543030264761, guid: 2a19393f1c2d3ae42b5a14cc7bba1540, type: 3}
+  nextLevelPrefab: {fileID: 0}
   name: Knife Level 2
   description: Speed is up by 5
   icon: {fileID: 761100573506273824, guid: 9d0220afff694a14da18a0edc5ad0675, type: 3}

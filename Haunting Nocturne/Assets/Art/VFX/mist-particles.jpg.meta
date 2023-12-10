@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a2678d06a7eff64c99a7543727089db
+guid: b6709602ff6f0254e9bf488f1f6b6278
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -918744823792756476
-    second: evolved_knife_0
+      213: -7072853747147054207
+    second: mist-particles_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 192
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: evolved_knife_0
+      name: mist-particles_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 166
-        height: 185
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4099a925376ff33f0800000000000000
-      internalID: -918744823792756476
+      spriteID: 18362059dfc28dd90800000000000000
+      internalID: -7072853747147054207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mist-particles_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7f36196897e5a4ebacd56851b50b2b
+      internalID: 1834865609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mist-particles_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cfc8d6d57f4de42a7cf48acac5a6c6
+      internalID: -169510935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mist-particles_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822c96fc93b2f5f4586e5408dbe6c5ca
+      internalID: -1695940443
       vertices: []
       indices: 
       edges: []
@@ -121,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b438d86a7de24e74fa4eee0b7be606dc
+    spriteID: c84da70f563a08b4e82d6bbd9fa67796
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +192,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      evolved_knife_0: -918744823792756476
+      mist-particles_0: -7072853747147054207
+      mist-particles_1: 1834865609
+      mist-particles_2: -169510935
+      mist-particles_3: -1695940443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

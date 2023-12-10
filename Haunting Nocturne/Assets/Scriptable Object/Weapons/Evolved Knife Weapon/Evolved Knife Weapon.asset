@@ -17,8 +17,8 @@ MonoBehaviour:
   speed: 15
   cooldownDuration: 3
   pierce: 2
-  level: 0
+  level: 1
   nextLevelPrefab: {fileID: 0}
-  name: 
+  name: Lethal Blade
   description: 
-  icon: {fileID: -918744823792756476, guid: 4a2678d06a7eff64c99a7543727089db, type: 3}
+  icon: {fileID: 3799795122159607258, guid: 9935d8345bbf1ca43992e1bd93d8b773, type: 3}

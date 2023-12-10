@@ -314,9 +314,9 @@ MonoBehaviour:
   m_text: "Game Objective: \nSurvive until the time limits up!\n\nHow To Play:\nSelect
     your character  {each character comes with their own predetermined weapon}.\nKill
     enemies to gain experience.\nLevel up and choose an upgrade (add a new weapon/passive
-    item to your inventory or upgrade an exist one.)\nSurvive untild the time is
-    up. \nWeapon willwutomatically fire in intervals.\n\nControl:\nW A S D keys to
-    move around."
+    item to your inventory or upgrade an exist one.)\nSurvive until the time is up.
+    \nWeapon will automatically fire in intervals.\n\nControl:\nW A S D keys to move
+    around."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
