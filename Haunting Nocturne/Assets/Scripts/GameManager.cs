@@ -128,7 +128,7 @@ public class GameManager : MonoBehaviour
 
         Destroy(textObj, duration);
 
-        textObj.transform.parent.SetParent(instance.damageTextCanvas.transform);
+        textObj.transform.SetParent(instance.damageTextCanvas.transform);
 
 
         WaitForEndOfFrame w = new WaitForEndOfFrame();
