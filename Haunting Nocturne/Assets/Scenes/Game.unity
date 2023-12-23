@@ -9813,6 +9813,58 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 4
     spawnCount: 0
+  - waveName: Wave 6
+    enemyGroups:
+    - enemyName: Bat
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+    - enemyName: Skeleton
+      enemyCount: 4
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    waveQuota: 0
+    spawnInterval: 4
+    spawnCount: 0
+  - waveName: Wave 7
+    enemyGroups:
+    - enemyName: Skeleton
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    - enemyName: Vanilla
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    waveQuota: 0
+    spawnInterval: 4
+    spawnCount: 0
+  - waveName: Wave 8
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 4
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Bat
+      enemyCount: 4
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+    waveQuota: 0
+    spawnInterval: 4
+    spawnCount: 0
+  - waveName: Wave 9
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 4
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Beast
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
+    waveQuota: 0
+    spawnInterval: 4
+    spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
   maxEnemiesAllowed: 10

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7740652461400488890}
   - component: {fileID: 5394000983019406767}
   m_Layer: 0
-  m_Name: Red Bat
+  m_Name: Beast
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4359633526704633744}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.020956298, z: -0, w: 0.9997804}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -2.402, z: 0}
 --- !u!212 &7708561667015284038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: -1602904273
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 844441113, guid: 5c849cff3e0b1054ab10a53c7b551e44, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.06464243, a: 1}
+  m_Sprite: {fileID: -6348806237195144154, guid: c217481fdb42fca4386798149fe5856d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -97,9 +97,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4359633526704633744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 94deedc71463efd429b2c9970a2b7208, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ab4a5773340e124bb40499cc517caf7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -149,7 +149,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.84375, y: 0.6875}
+    oldSize: {x: 0.3, y: 0.32}
     newSize: {x: 0.84375, y: 0.6875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6af29015ab559ec4dbb5314ab66ba7be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: 892572102b9c0c349bd921c7b9c88dec, type: 2}
+  enemyData: {fileID: 11400000, guid: e70ec67bbdf4dcf40ac383638798c309, type: 2}
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
