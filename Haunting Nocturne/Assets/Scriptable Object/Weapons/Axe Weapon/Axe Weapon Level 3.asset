@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f03d01c10afaf74e8b23d750217f81d, type: 3}
+  m_Name: Axe Weapon Level 3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2107053649545355043, guid: 950da72ce76b772458a59aaea016c9ac, type: 3}
+  damage: 15
+  speed: 10
+  cooldownDuration: 0.9
+  pierce: 1
+  level: 3
+  nextLevelPrefab: {fileID: 8981309008471864932, guid: bafee007bfef1c543b2b185de5d61ace, type: 3}
+  name: Axe Level 3
+  description: Cooldown reduces 0.1
+  icon: {fileID: 3911818512575522560, guid: 4af5459ddb2eff546ba00c3a546dc859, type: 3}

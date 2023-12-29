@@ -5,6 +5,7 @@ using System.IO.Enumeration;
 using UnityEditor;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "WeaponScriptableObject", menuName = "ScriptableObjects/Weapon")]
 public class WeaponScriptableObject : ScriptableObject
 {
