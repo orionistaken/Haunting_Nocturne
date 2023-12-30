@@ -2129,6 +2129,9 @@ MonoBehaviour:
   - weaponUpgradeIndex: 2
     initialWeapon: {fileID: 8981309008471864932, guid: 5f2c717263e81aa459eed43494a25706, type: 3}
     weaponData: {fileID: 11400000, guid: c134949207b226d4c95e8647af6d26ae, type: 2}
+  - weaponUpgradeIndex: 3
+    initialWeapon: {fileID: 8981309008471864932, guid: a15c2ddac57a925458deb3798bdd20ed, type: 3}
+    weaponData: {fileID: 11400000, guid: e444d72d96ba33245b62e9744917d579, type: 2}
   passiveItemUpgradeOptions:
   - passiveItemUpgradeIndex: 0
     initialPassiveItem: {fileID: 4271505567529841281, guid: 40acef814f9a9fa46897955a89767004, type: 3}

@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5381763127940654113}
-  - component: {fileID: -6584838112060647059}
+  - component: {fileID: -8879372308018601248}
   m_Layer: 0
-  m_Name: Axe Controller
+  m_Name: Fireball Controller Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6584838112060647059
+--- !u!114 &-8879372308018601248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8981309008471864932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a8fa2d48356d44c8634704a699972e, type: 3}
+  m_Script: {fileID: 11500000, guid: 154e6495143113849aa37529d8c26cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 2d346724fb8f90d4ea23be32e028a38c, type: 2}
+  weaponData: {fileID: 11400000, guid: 6c19ffd4f218dde48b7b410f488957eb, type: 2}
+  rotationSpeed: 10
