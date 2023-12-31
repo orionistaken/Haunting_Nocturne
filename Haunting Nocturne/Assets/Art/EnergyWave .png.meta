@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 3e654f6da727cce4f9d9338bf61e7cda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6853990323748037608
+    second: EnergyWave _0
+  - first:
+      213: -2978865195192374998
+    second: EnergyWave _1
+  - first:
+      213: 4125181981708368761
+    second: EnergyWave _2
+  - first:
+      213: -362698796137848826
+    second: EnergyWave _3
+  - first:
+      213: 1948877108473873400
+    second: EnergyWave _4
+  - first:
+      213: 5385009302880233095
+    second: EnergyWave _5
+  - first:
+      213: -8835818895432812560
+    second: EnergyWave _6
+  - first:
+      213: 3740871275879010323
+    second: EnergyWave _7
+  - first:
+      213: 6829288364263677277
+    second: EnergyWave _8
+  - first:
+      213: -3527308982895223020
+    second: EnergyWave _9
+  - first:
+      213: 9067308996067797219
+    second: EnergyWave _10
+  - first:
+      213: 5054788515610292316
+    second: EnergyWave _11
+  - first:
+      213: -4370378770380707098
+    second: EnergyWave _12
+  - first:
+      213: 795260094111377155
+    second: EnergyWave _13
+  - first:
+      213: -4532786609109436992
+    second: EnergyWave _14
+  - first:
+      213: -3024443809689549630
+    second: EnergyWave _15
+  - first:
+      213: 2196760549631910325
+    second: EnergyWave _16
+  - first:
+      213: -8504549678792697720
+    second: EnergyWave _17
+  - first:
+      213: 8428236960515896490
+    second: EnergyWave _18
+  - first:
+      213: 5745387943555561616
+    second: EnergyWave _19
+  - first:
+      213: 6211497184264772860
+    second: EnergyWave _20
+  - first:
+      213: -3570023899273099304
+    second: EnergyWave _21
+  - first:
+      213: -2631692028154949737
+    second: EnergyWave _22
+  - first:
+      213: -5406933093609774580
+    second: EnergyWave _23
+  - first:
+      213: 9049165755082013089
+    second: EnergyWave _24
+  - first:
+      213: 8747401178273263194
+    second: EnergyWave _25
+  - first:
+      213: -6295727942188228027
+    second: EnergyWave _26
+  - first:
+      213: 8355504286471246358
+    second: EnergyWave _27
+  - first:
+      213: -1895329433422282664
+    second: EnergyWave _28
+  - first:
+      213: 2659260973534263641
+    second: EnergyWave _29
+  - first:
+      213: -1531438190480230686
+    second: EnergyWave _30
+  - first:
+      213: -460973329551519033
+    second: EnergyWave _31
+  - first:
+      213: -1754740181900810047
+    second: EnergyWave _32
+  - first:
+      213: 3066645434589798574
+    second: EnergyWave _33
+  - first:
+      213: 1928162445177191283
+    second: EnergyWave _34
+  - first:
+      213: 2478217383196294566
+    second: EnergyWave _35
+  - first:
+      213: -4961310723303514327
+    second: EnergyWave _36
+  - first:
+      213: 5191486901846592369
+    second: EnergyWave _37
+  - first:
+      213: -5471135889462070355
+    second: EnergyWave _38
+  - first:
+      213: -1634838022948866368
+    second: EnergyWave _39
+  - first:
+      213: 2729180643186657508
+    second: EnergyWave _40
+  - first:
+      213: 417165918528422066
+    second: EnergyWave _41
+  - first:
+      213: -3177832074751423370
+    second: EnergyWave _42
+  - first:
+      213: 7561736782438000152
+    second: EnergyWave _43
+  - first:
+      213: 6695828154303592032
+    second: EnergyWave _44
+  - first:
+      213: 6117966860613290508
+    second: EnergyWave _45
+  - first:
+      213: -2707906451906009702
+    second: EnergyWave _46
+  - first:
+      213: 5562069268418112443
+    second: EnergyWave _47
+  - first:
+      213: 8832104835239546365
+    second: EnergyWave _48
+  - first:
+      213: 2739672666202532399
+    second: EnergyWave _49
+  - first:
+      213: 1480110013195365349
+    second: EnergyWave _50
+  - first:
+      213: 5960158729032117674
+    second: EnergyWave _51
+  - first:
+      213: -5724616524748377925
+    second: EnergyWave _52
+  - first:
+      213: -5836428042567077490
+    second: EnergyWave _53
+  - first:
+      213: 2436995041845542754
+    second: EnergyWave _54
+  - first:
+      213: 4901612713882003214
+    second: EnergyWave _55
+  - first:
+      213: -5260784844920230408
+    second: EnergyWave _56
+  - first:
+      213: 4836957532255575894
+    second: EnergyWave _57
+  - first:
+      213: 4313122490914106093
+    second: EnergyWave _58
+  - first:
+      213: -4098462197162446577
+    second: EnergyWave _59
+  - first:
+      213: 1663386118984201721
+    second: EnergyWave _60
+  - first:
+      213: -6259408660380624325
+    second: EnergyWave _61
+  - first:
+      213: -7888960276968962416
+    second: EnergyWave _62
+  - first:
+      213: 3962258763639849275
+    second: EnergyWave _63
+  - first:
+      213: 2717581583660903155
+    second: EnergyWave _64
+  - first:
+      213: 127375861136847123
+    second: EnergyWave _65
+  - first:
+      213: 5849015085187337387
+    second: EnergyWave _66
+  - first:
+      213: -2087640126002879614
+    second: EnergyWave _67
+  - first:
+      213: -2925726253466560069
+    second: EnergyWave _68
+  - first:
+      213: 5606874108323594963
+    second: EnergyWave _69
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnergyWave _2
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1320
+        width: 212
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bb19df7279f3930800000000000000
+      internalID: 4125181981708368761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1369
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3c971976dcb0b10800000000000000
+      internalID: 1948877108473873400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _5
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1353
+        width: 124
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786a9521e656bba40800000000000000
+      internalID: 5385009302880233095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1397
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7fa0e578dd06580800000000000000
+      internalID: -8835818895432812560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 717
+        width: 249
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e82353cd7d85dd70800000000000000
+      internalID: 9067308996067797219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _14
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 718
+        width: 345
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c57261489e4811c0800000000000000
+      internalID: -4532786609109436992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _15
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 687
+        width: 292
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4435811640706d0800000000000000
+      internalID: -3024443809689549630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _17
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 683
+        width: 318
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88816ec4025c9f980800000000000000
+      internalID: -8504549678792697720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 146
+        width: 367
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e675f4641d3fbae0800000000000000
+      internalID: -1531438190480230686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 144
+        width: 416
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaeea7bd0a4bdb30800000000000000
+      internalID: 4313122490914106093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyWave _65
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 146
+        width: 343
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311750cbba784c100800000000000000
+      internalID: 127375861136847123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d63b26aea0b469e45bfe6adae45b9f3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnergyWave _0: 752547683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f03d01c10afaf74e8b23d750217f81d, type: 3}
   m_Name: Fireball Weapon Level 4
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8981309008471864932, guid: 49fff50cb42ffcb4c827761697726ddd, type: 3}
+  prefab: {fileID: 2107053649545355043, guid: aec7a90d6f7e84e4c8c40118232ea13c, type: 3}
   damage: 20
   speed: 10
   cooldownDuration: 0.9
   pierce: 1
   level: 4
-  nextLevelPrefab: {fileID: 8981309008471864932, guid: 657b3f2ad989cf04abd3bc85b4782fce, type: 3}
+  nextLevelPrefab: {fileID: 2107053649545355043, guid: 98a477a6c8ed84b47ac8d2bae543cc2d, type: 3}
   name: Fireball
   description: Area Damage
   icon: {fileID: -381080611, guid: 975106007aae14d42b331e2ad4f8306c, type: 3}

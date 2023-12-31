@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8981309008471864932
+--- !u!1 &2208769892304162477
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5381763127940654113}
-  - component: {fileID: -6584838112060647059}
+  - component: {fileID: 1968064414611874592}
+  - component: {fileID: -4157738784613169423}
   m_Layer: 0
-  m_Name: Axe Controller
+  m_Name: Energy Wave Controller Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5381763127940654113
+--- !u!4 &1968064414611874592
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8981309008471864932}
+  m_GameObject: {fileID: 2208769892304162477}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,16 +32,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6584838112060647059
+--- !u!114 &-4157738784613169423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8981309008471864932}
+  m_GameObject: {fileID: 2208769892304162477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a8fa2d48356d44c8634704a699972e, type: 3}
+  m_Script: {fileID: 11500000, guid: 249b523f0837eea4fb4934f9fd601375, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: c134949207b226d4c95e8647af6d26ae, type: 2}
+  weaponData: {fileID: 11400000, guid: 0a27a22b5903b3e44ae1d8556be3e0c6, type: 2}

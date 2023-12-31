@@ -2101,9 +2101,9 @@ MonoBehaviour:
   - {fileID: 572668748}
   - {fileID: 1185004185}
   - {fileID: 1212195066}
-  - {fileID: 335900184}
-  - {fileID: 1096070778}
-  - {fileID: 1892668438}
+  - {fileID: 1212195066}
+  - {fileID: 1212195066}
+  - {fileID: 1212195066}
   passiveItemSlots:
   - {fileID: 0}
   - {fileID: 0}
@@ -2116,9 +2116,9 @@ MonoBehaviour:
   - {fileID: 1550851372}
   - {fileID: 1394656385}
   - {fileID: 1340067492}
-  - {fileID: 1792596322}
-  - {fileID: 1677562948}
-  - {fileID: 770060457}
+  - {fileID: 1340067492}
+  - {fileID: 1340067492}
+  - {fileID: 1340067492}
   weaponUpgradeOptions:
   - weaponUpgradeIndex: 0
     initialWeapon: {fileID: 5705936543030264761, guid: f27958c2049a4554ea03ed5445d2e020, type: 3}
@@ -2130,8 +2130,8 @@ MonoBehaviour:
     initialWeapon: {fileID: 8981309008471864932, guid: 5f2c717263e81aa459eed43494a25706, type: 3}
     weaponData: {fileID: 11400000, guid: c134949207b226d4c95e8647af6d26ae, type: 2}
   - weaponUpgradeIndex: 3
-    initialWeapon: {fileID: 8981309008471864932, guid: a15c2ddac57a925458deb3798bdd20ed, type: 3}
-    weaponData: {fileID: 11400000, guid: e444d72d96ba33245b62e9744917d579, type: 2}
+    initialWeapon: {fileID: 2208769892304162477, guid: 1504435b57b8dc3429dcc2b7039c8e55, type: 3}
+    weaponData: {fileID: 11400000, guid: 7f1140fb40c95814ebdf3378e3860a0e, type: 2}
   passiveItemUpgradeOptions:
   - passiveItemUpgradeIndex: 0
     initialPassiveItem: {fileID: 4271505567529841281, guid: 40acef814f9a9fa46897955a89767004, type: 3}
