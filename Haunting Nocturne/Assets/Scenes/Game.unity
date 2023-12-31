@@ -2101,9 +2101,9 @@ MonoBehaviour:
   - {fileID: 572668748}
   - {fileID: 1185004185}
   - {fileID: 1212195066}
-  - {fileID: 1212195066}
-  - {fileID: 1212195066}
-  - {fileID: 1212195066}
+  - {fileID: 335900184}
+  - {fileID: 1096070778}
+  - {fileID: 1892668438}
   passiveItemSlots:
   - {fileID: 0}
   - {fileID: 0}
@@ -2116,9 +2116,9 @@ MonoBehaviour:
   - {fileID: 1550851372}
   - {fileID: 1394656385}
   - {fileID: 1340067492}
-  - {fileID: 1340067492}
-  - {fileID: 1340067492}
-  - {fileID: 1340067492}
+  - {fileID: 1792596322}
+  - {fileID: 1677562948}
+  - {fileID: 770060457}
   weaponUpgradeOptions:
   - weaponUpgradeIndex: 0
     initialWeapon: {fileID: 5705936543030264761, guid: f27958c2049a4554ea03ed5445d2e020, type: 3}

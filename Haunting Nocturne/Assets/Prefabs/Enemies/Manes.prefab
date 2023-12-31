@@ -149,7 +149,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.31, y: 0.29}
+    oldSize: {x: 2.0666666, y: 1.9333333}
     newSize: {x: 0.84375, y: 0.6875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   drops:
   - name: Blue Gem
     itemPrefab: {fileID: 148959690331836421, guid: ae97a8d3339553e478c0c6d220dffd8f, type: 3}
-    dropRate: 50
+    dropRate: 100
 --- !u!114 &5394000983019406767
 MonoBehaviour:
   m_ObjectHideFlags: 0
