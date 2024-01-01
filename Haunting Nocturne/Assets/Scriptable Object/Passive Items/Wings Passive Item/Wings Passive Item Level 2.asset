@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f71962329524afa4191c3319287d13fb, type: 3}
   m_Name: Wings Passive Item Level 2
   m_EditorClassIdentifier: 
-  multipler: 75
+  multipler: 10
   level: 2
-  nextLevelPrefab: {fileID: 0}
+  nextLevelPrefab: {fileID: 4271505567529841281, guid: 5f12fa8730adfdb43af37c2b659489b0, type: 3}
   name: Wings Level 2
-  description: Increases Movement Speed By 75%
+  description: Increases Movement Speed By 10%
   icon: {fileID: -5303247421530120293, guid: c0781af7af7b88247b1c07af40c5ce91, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f03d01c10afaf74e8b23d750217f81d, type: 3}
+  m_Name: Knife Weapon Level 5
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7341782664409433307, guid: dd834c4d1f1f13d4ab33617767c03d66, type: 3}
+  damage: 10
+  speed: 15
+  cooldownDuration: 1.5
+  pierce: 0
+  level: 5
+  nextLevelPrefab: {fileID: 0}
+  name: Knife Level 5
+  description: Cooldown reduces 0.4
+  icon: {fileID: 761100573506273824, guid: 9d0220afff694a14da18a0edc5ad0675, type: 3}

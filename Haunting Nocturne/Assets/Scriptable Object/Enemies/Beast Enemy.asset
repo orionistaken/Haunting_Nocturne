@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Beast Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 2.4
-  maxHealth: 14
+  maxHealth: 30
   damage: 30

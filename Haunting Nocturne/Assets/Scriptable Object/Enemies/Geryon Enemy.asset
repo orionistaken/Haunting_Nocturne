@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Geryon Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 2.4
-  maxHealth: 14
+  maxHealth: 50
   damage: 30

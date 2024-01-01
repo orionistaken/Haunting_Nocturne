@@ -120,6 +120,134 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &20649700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20649702}
+  - component: {fileID: 20649701}
+  m_Layer: 0
+  m_Name: BG_Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &20649701
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20649700}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d6d3de87d658c4f308e3ef3ccfdba7ff, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.01
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &20649702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20649700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6268485, y: 4.935067, z: 0.64400846}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &25327027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,6 +1976,7 @@ GameObject:
   - component: {fileID: 497868287}
   - component: {fileID: 497868289}
   - component: {fileID: 497868290}
+  - component: {fileID: 497868291}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2067,16 +2196,35 @@ MonoBehaviour:
   invincibilityDuration: 0.5
   levelRanges:
   - startLevel: 1
-    endLevel: 3
-    experienceCapIncrease: 100
-  - startLevel: 4
-    endLevel: 5
+    endLevel: 1
     experienceCapIncrease: 200
+  - startLevel: 2
+    endLevel: 5
+    experienceCapIncrease: 50
+  - startLevel: 6
+    endLevel: 15
+    experienceCapIncrease: 20
+  - startLevel: 16
+    endLevel: 20
+    experienceCapIncrease: 40
+  - startLevel: 21
+    endLevel: 25
+    experienceCapIncrease: 20
+  - startLevel: 26
+    endLevel: 30
+    experienceCapIncrease: 10
+  - startLevel: 26
+    endLevel: 30
+    experienceCapIncrease: 10
+  - startLevel: 31
+    endLevel: 35
+    experienceCapIncrease: 5000
   weaponIndex: 0
   passiveItemIndex: 0
   healthBar: {fileID: 378553576}
   expBar: {fileID: 1001775413}
   levelText: {fileID: 1495140361}
+  damageSoundEffect: {fileID: 497868291}
 --- !u!114 &497868290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2158,6 +2306,102 @@ MonoBehaviour:
     upgradeButton: {fileID: 2018500918}
   weaponEvolutions:
   - {fileID: 11400000, guid: f160e86a68b6e6844b1723df441e24df, type: 2}
+--- !u!82 &497868291
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497868281}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d182d334785020545b6d0940eada2733, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &501779662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +2536,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.65
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2670,7 +2914,7 @@ MonoBehaviour:
   - {fileID: 1615296465}
   - {fileID: 290139617}
   - {fileID: 736634185}
-  timeLimit: 120
+  timeLimit: 900
   stopwatchDisplay: {fileID: 1794236597}
   isGameOver: 0
   choosingUpgrade: 0
@@ -4703,6 +4947,7 @@ GameObject:
   - component: {fileID: 1134627948}
   - component: {fileID: 1134627950}
   - component: {fileID: 1134627949}
+  - component: {fileID: 1134627951}
   m_Layer: 0
   m_Name: Collector
   m_TagString: Untagged
@@ -4774,6 +5019,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pullSpeed: 300
+  collectSoundEffect: {fileID: 1134627951}
+--- !u!82 &1134627951
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134627947}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7f9403ad262715f4994f66bc8d445f42, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1148145537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5914,63 +6256,6 @@ Canvas:
   m_SortingLayerID: -1602904273
   m_SortingOrder: 20
   m_TargetDisplay: 0
---- !u!1001 &1326736483
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 577777371772266630, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_Name
-      value: Treasure Chest
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.5264983
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.6043799
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1362382561565137317, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2793da85bcaab3f429c4e9852c1abe4e, type: 3}
 --- !u!1 &1340067491
 GameObject:
   m_ObjectHideFlags: 0
@@ -9765,117 +10050,302 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 5
+      enemyCount: 40
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 0.5
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
-    - enemyName: Red Bat
-      enemyCount: 2
+    - enemyName: Bat
+      enemyCount: 40
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+      enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 0.5
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 1
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
-    - enemyName: Red Bat
-      enemyCount: 3
+    - enemyName: Skeleton
+      enemyCount: 30
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 2
+      enemyCount: 40
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
     - enemyName: Red Bat
-      enemyCount: 4
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 3
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
-    - enemyName: Red Bat
-      enemyCount: 4
+    - enemyName: Skeleton
+      enemyCount: 20
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
     waveQuota: 0
-    spawnInterval: 4
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 6
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 3
+      enemyCount: 25
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
     - enemyName: Skeleton
-      enemyCount: 4
+      enemyCount: 25
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
     waveQuota: 0
-    spawnInterval: 4
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 7
     enemyGroups:
     - enemyName: Skeleton
-      enemyCount: 3
+      enemyCount: 40
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
-    - enemyName: Vanilla
-      enemyCount: 3
+    - enemyName: Shadow Imp
+      enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+      enemyPrefab: {fileID: 4359633526704633744, guid: a0af491e91e93da469d75a092ec17091, type: 3}
     waveQuota: 0
-    spawnInterval: 4
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 8
     enemyGroups:
-    - enemyName: Vanilla
-      enemyCount: 4
+    - enemyName: Skeleton
+      enemyCount: 20
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
-    - enemyName: Bat
-      enemyCount: 4
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    - enemyName: Shadow Imp
+      enemyCount: 30
       spawnCount: 0
-      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+      enemyPrefab: {fileID: 4359633526704633744, guid: a0af491e91e93da469d75a092ec17091, type: 3}
     waveQuota: 0
-    spawnInterval: 4
+    spawnInterval: 0.4
     spawnCount: 0
   - waveName: Wave 9
     enemyGroups:
+    - enemyName: Skeleton
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    - enemyName: Shadow Imp
+      enemyCount: 30
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a0af491e91e93da469d75a092ec17091, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.4
+    spawnCount: 0
+  - waveName: Wave 10
+    enemyGroups:
+    - enemyName: Skeleton
+      enemyCount: 35
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    - enemyName: Red Bat
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.4
+    spawnCount: 0
+  - waveName: Wave 11
+    enemyGroups:
     - enemyName: Vanilla
-      enemyCount: 4
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Boris
+      enemyCount: 30
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: caefa7d89ba0e0142969ea6ce15c3159, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.4
+    spawnCount: 0
+  - waveName: Wave 12
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
     - enemyName: Beast
-      enemyCount: 3
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
     waveQuota: 0
-    spawnInterval: 4
+    spawnInterval: 0.4
+    spawnCount: 0
+  - waveName: Wave 13
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Beast
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 14
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: caefa7d89ba0e0142969ea6ce15c3159, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 15
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 60
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Beast
+      enemyCount: 40
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 16
+    enemyGroups:
+    - enemyName: Vanilla
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 2f7570ae2ecd2194d8abf5e66bf95448, type: 3}
+    - enemyName: Beast
+      enemyCount: 80
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 17
+    enemyGroups:
+    - enemyName: Manes
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 6449fc78b93d8eb40b198994a80c036a, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 18
+    enemyGroups:
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 19
+    enemyGroups:
+    - enemyName: Wraith
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: b082e03b68582044090af9a798fc6301, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 20
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 21
+    enemyGroups:
+    - enemyName: Boris
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: caefa7d89ba0e0142969ea6ce15c3159, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 22
+    enemyGroups:
+    - enemyName: Beast
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a2162cb3650473d4f9529cfcd8124ca9, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 23
+    enemyGroups:
+    - enemyName: Wraith
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: b082e03b68582044090af9a798fc6301, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 24
+    enemyGroups:
+    - enemyName: Manes
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 6449fc78b93d8eb40b198994a80c036a, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 25
+    enemyGroups:
+    - enemyName: Manes
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 6449fc78b93d8eb40b198994a80c036a, type: 3}
+    - enemyName: Wraith
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: b082e03b68582044090af9a798fc6301, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 26
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 10
+  maxEnemiesAllowed: 150
   maxEnemiesReached: 0
-  waveInterval: 10
+  waveInterval: 20
   relativeSpawnPoints:
   - {fileID: 104340656}
   - {fileID: 1949347594}
@@ -12053,4 +12523,4 @@ SceneRoots:
   - {fileID: 601591927}
   - {fileID: 1203964547}
   - {fileID: 652153663}
-  - {fileID: 1326736483}
+  - {fileID: 20649702}

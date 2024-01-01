@@ -147,6 +147,7 @@ public class PlayerStats : MonoBehaviour
     public Image expBar;
     public TMP_Text levelText;
 
+    [SerializeField] private AudioSource damageSoundEffect;
 
     void Awake()
     {
@@ -246,6 +247,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (!isInvincible) 
         {
+            damageSoundEffect.Play();
             CurrentHealth -= dmg;
 
             if (damageEffect) Instantiate(damageEffect, transform.position, Quaternion.identity);

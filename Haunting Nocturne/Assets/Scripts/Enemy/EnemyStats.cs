@@ -25,6 +25,7 @@ public class EnemyStats : MonoBehaviour
     Color originalColor;
     SpriteRenderer sr;
     EnemyMovement movement;
+    [SerializeField] private AudioSource deathSoundEffect;
 
     void Awake()
     {
@@ -81,6 +82,7 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
+        deathSoundEffect.Play();
         StartCoroutine(KillFade());
     }
 
