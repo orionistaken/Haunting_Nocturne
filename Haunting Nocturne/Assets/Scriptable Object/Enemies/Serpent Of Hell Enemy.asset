@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1fc10f8b07b1f84daa1f11afc35ece9, type: 3}
   m_Name: Serpent Of Hell Enemy
   m_EditorClassIdentifier: 
-  moveSpeed: 2.4
-  maxHealth: 100
-  damage: 30
+  moveSpeed: 3
+  maxHealth: 1500
+  damage: 130

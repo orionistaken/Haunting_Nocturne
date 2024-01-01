@@ -2211,14 +2211,11 @@ MonoBehaviour:
     endLevel: 25
     experienceCapIncrease: 20
   - startLevel: 26
-    endLevel: 30
+    endLevel: 29
     experienceCapIncrease: 10
-  - startLevel: 26
-    endLevel: 30
-    experienceCapIncrease: 10
-  - startLevel: 31
+  - startLevel: 30
     endLevel: 35
-    experienceCapIncrease: 5000
+    experienceCapIncrease: 50000
   weaponIndex: 0
   passiveItemIndex: 0
   healthBar: {fileID: 378553576}
@@ -10341,9 +10338,212 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 0.1
     spawnCount: 0
+  - waveName: Wave 27
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 28
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 29
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 30
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 31
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 32
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 33
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 34
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.1
+    spawnCount: 0
+  - waveName: Wave 35
+    enemyGroups:
+    - enemyName: Geryon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: d2b798c92bf6a684e9ac12590c115aa4, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 36
+    enemyGroups:
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 37
+    enemyGroups:
+    - enemyName: Shadow Imp
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: a0af491e91e93da469d75a092ec17091, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 38
+    enemyGroups:
+    - enemyName: Skeleton
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: c9f3ba6e9fbd1144ba19ab547af2d9d5, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 39
+    enemyGroups:
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 40
+    enemyGroups:
+    - enemyName: Red Bat
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 53d87fc2763c04943a0c2b4ad5f26d79, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 41
+    enemyGroups:
+    - enemyName: Shadow Demon
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 27a378a2137e405438d886facfed2975, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 42
+    enemyGroups:
+    - enemyName: Manes
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 6449fc78b93d8eb40b198994a80c036a, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 43
+    enemyGroups:
+    - enemyName: Borsi
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: caefa7d89ba0e0142969ea6ce15c3159, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 44
+    enemyGroups:
+    - enemyName: Bat
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 3ae0e1c2ede2f7748b03cf8121650fec, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
+  - waveName: Wave 45
+    enemyGroups:
+    - enemyName: Serpent Of Hell
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 4359633526704633744, guid: 0982e7e92b9181c4dbd274c6c2c4c100, type: 3}
+    waveQuota: 0
+    spawnInterval: 0.2
+    spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 150
+  maxEnemiesAllowed: 200
   maxEnemiesReached: 0
   waveInterval: 20
   relativeSpawnPoints:

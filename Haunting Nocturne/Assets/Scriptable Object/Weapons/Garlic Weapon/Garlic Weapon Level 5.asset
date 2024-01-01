@@ -19,6 +19,6 @@ MonoBehaviour:
   pierce: 0
   level: 5
   nextLevelPrefab: {fileID: 0}
-  name: Garlic Level 3
+  name: Garlic Level 5
   description: Damage +5
   icon: {fileID: -8944997348610683000, guid: bc0cbb2adea90124c8e7bbb30fe1b4cd, type: 3}
