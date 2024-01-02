@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 1250512541986581789, guid: 291353558b989744b9e89b04ce004af5, type: 3}
   name: Knife Character
   startingWeapon: {fileID: 5705936543030264761, guid: f27958c2049a4554ea03ed5445d2e020, type: 3}
-  maxHealth: 100
+  maxHealth: 200
   recovery: 1
   moveSpeed: 5
   might: 1
